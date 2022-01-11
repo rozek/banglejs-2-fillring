@@ -19,20 +19,6 @@ with the following parameters:
 * `r1` - outer ring radius
 * `r2` - inner ring radius
 
-It may be invoked as shown like a method of the global graphics context `g`
-
-```
-g.fillring(cx,cy, r1,r2);
-```
-
-or like a standalone function
-
-```
-fillring(cx,cy, r1,r2);
-```
-
-In the latter case, it uses `g` as graphics context.
-
 The ring is drawn and filled with current foreground color.
 
 ## License ##
