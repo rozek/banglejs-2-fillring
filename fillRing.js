@@ -1,6 +1,6 @@
-(function () {
-  if (g.fillRing == null) {
-    g.fillRing = function fillRing (cx,cy, r1,r2) {
+;(function () {
+  if (Graphics.prototype.fillRing == null) {
+    Graphics.prototype.fillRing = function fillRing (cx,cy, r1,r2) {
       let x,y;
       if (r1 < r2) { x = r1; r1 = r2; r2 = x; }
 
