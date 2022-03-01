@@ -8,7 +8,7 @@ This module adds a method `fillring` for drawing filled circular rings to the gl
 
 The new method has the signature
 
-```
+```javascript
 g.fillring(cx,cy, r1,r2);
 ```
 
